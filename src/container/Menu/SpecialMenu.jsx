@@ -29,10 +29,12 @@ const SpecialMenu = () => (
                       <div className='app__specialMenu_menu_items'>
                           {data.cocktails.map((cocktail,index)=> (
                             <p>{cocktail.title}</p>
-                          ))}
-                        
+                          ))} 
                       </div>
                 </div>
+            </div>
+            <div style={{marginTop:'15px'}}>
+                            <button type="button" className='custom__button'>View More</button>
 
             </div>
   </div>
