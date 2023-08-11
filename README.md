@@ -1,7 +1,10 @@
 # Getting Started with Create React App
 
 
-Live Link : https://restaurant-react-app-rust.vercel.app/
+Live Link : https://restaurant-react-app-rust.vercel.app/ 
+![Screenshot (16)](https://github.com/Vargos98/restaurant-react-app/assets/127929058/68fa6733-25f9-43af-9a0a-76ccf314edef)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
