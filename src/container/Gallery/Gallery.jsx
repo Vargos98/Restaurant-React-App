@@ -24,13 +24,13 @@ const scroll = (direction) =>{
                 <SubHeading title="Instagram"/>
                 <h1 className='headtext__cormorant'>Photo Gallery</h1>
                 <p className="p__opensans" style={{color: '#AAA', marginTop:'2rem'}}>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-                <button type='button' className='custom__button'>View More</button>
+                {/* <button type='button' className='custom__button'>View More</button> */}
               </div>
 
               <div className="app__gallery-images">
                 <div className="app__gallery-images_container" ref={scrollRef}>
                   {galleryImages.map((image,index)=>(
-                      <div className="app__gallery-images_card flex__cener" key={'gallery_image-${index+1}'}>
+                      <div className="app__gallery-images_card flex__cener" key={`gallery_image-${index+1}`}>
                         <img src={image} alt='gallery' />
                         <BsInstagram className='galler__image-icon' />
                       </div>

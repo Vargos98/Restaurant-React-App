@@ -9,7 +9,8 @@ const Header = () => (
     <SubHeading title="Chase the new Flavour" />
     <h1 className="app__header-h1">The key to fine dinning</h1>
     <p className="p__opensans" style={{margin:'2rem 0'}}>The recipe to a well defined cuisine, always goes to the precision and skills used in it.</p>
-    <button type='button' className='custom__button'>Explore Menu</button>
+    {/* <button type='button' className='custom__button'>Explore Menu</button> */}
+    <a href='#menu' className='custom__button'>Explore Menu</a>
 
     </div>
 
